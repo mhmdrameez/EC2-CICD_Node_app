@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   // Sending This is the home page! in the page
   res
     .status(200)
-    .send(`This Page is running in AWS EC2 CI/CD WITH Github Actions is the home page and test runninsgs on ${PORT}`);
+    .send(`This Page is running Workinggggggggggg in AWS EC2 CI/CD WITH Github Actions is the home page and test runnins on ${PORT}`);
 });
 
 // Listening to the port 
