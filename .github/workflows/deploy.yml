@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: SSH deploy
+     - name: executing remote ssh commands using password
        uses: appleboy/ssh-action@v0.1.8
        with:
           host: ${{ secrets.HOST }}
